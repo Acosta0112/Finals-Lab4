@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My First Bootstrap Page</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container mt-5">
+<h1 class="text-center">Welcome to My Landing Page</h1>
+<p class="text-center text-muted">A mini project using Bootstrap</p>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Call of Duty Clan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About this Page</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Benefits</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+ <center> <img src="images/cod1.jpg" width="50%" height="100%"></center>
+
+
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/cod2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/cod3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/cod4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="card-group">
+    <div class="card">
+      <img src="images/clan1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Call of Duty Clan Wars</h5>
+        <p class="card-text">Call of Duty Clan Wars are a weekly, competitive event where clans battle each other for territory by
+           completing challenges to earn points. Members contribute by completing specific in-game tasks on different nodes of a map,
+            and the clan that accumulates the most points controls the nodes and earns rewards.
+           The results of these wars place clans into leagues, and
+            performance can be improved through various strategies, 
+            like focusing on a primary target and playing with clanmates. .</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/clan2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">How to join clan?</h5>
+        <p class="card-text">To join a clan in Call of Duty (COD), you typically navigate to the
+           in-game clan menu and search for active clans. The exact steps and screen layouts may differ
+            slightly depending on the specific Call of Duty game you are playing (e.g., COD: Mobile, Warzone, etc.). </p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/clan3.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Call of duty Clan Championship</h5>
+        <p class="card-text">The Call of Duty Championship is the annual,
+           high-stakes professional tournament that determines the world champion team for a specific Call of Duty season.
+            This event involves top professional teams qualifying through various regional and seasonal event
+            s (such as the Call of Duty League or CODM World Championship stages) to compete for a substantial prize pool. </p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
